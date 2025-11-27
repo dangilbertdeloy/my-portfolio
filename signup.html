@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sign Up</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Create Account</h2>
+  <form onsubmit="signup(); return false;">
+    <input type="text" id="newUsername" placeholder="Enter username" required>
+    <input type="password" id="newPassword" placeholder="Enter password" required>
+    <p id="signupError" class="error"></p>
+    <button type="submit">Sign Up</button>
+  </form>
+
+  <p class="link">Already have an account? <a href="login.html">Login</a></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
